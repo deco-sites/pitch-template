@@ -22,8 +22,13 @@ export default function HeroFlats(props: Props) {
 
   return (
     <div class="flex flex-col items-center justify-center gap-8 w-full h-[982px] text-primary font-normal text-center">
-      <h1 style={{ fontSize, lineHeight }}>{companyName}</h1>
-      <h2 class="text-xl font-inter">{tagline}</h2>
+      <h1
+        style={{ fontSize, lineHeight: `${lineHeight}px` }}
+        class="max-w-[50%]"
+      >
+        {companyName}
+      </h1>
+      <h2 class="text-2xl font-inter leading-7">{tagline}</h2>
     </div>
   );
 }
