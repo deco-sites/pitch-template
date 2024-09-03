@@ -24,7 +24,7 @@ export default function HeroFlats(props: Props) {
     <div class="flex flex-col items-center justify-center gap-8 w-full min-h-[982px] text-primary font-normal text-center">
       <h1
         style={{ fontSize, lineHeight: `${lineHeight}px` }}
-        class="max-w-[65%]"
+        class="xl:max-w-[65%]"
       >
         {companyName}
       </h1>
