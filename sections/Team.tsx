@@ -63,6 +63,8 @@ const DEFAULT_PROPS: Props = {
 export default function Team(props: Props) {
   const { title, subtitle, members = [] } = { ...DEFAULT_PROPS, ...props };
 
+  if (!members || members.length === 0) return null;
+
   return (
     <div class="flex flex-col gap-12 items-center justify-center px-24 py-20 min-h-[982px] w-full text-base-100 bg-primary font-inter">
       <div class="flex flex-col gap-2 w-full">
