@@ -1,17 +1,1 @@
-{
-  "name": "Home",
-  "path": "/",
-  "sections": [
-    {
-      "__resolveType": "site/sections/Hero.tsx",
-      "companyName": "PITCH TEMPLATE",
-      "fontSize": 221.33,
-      "lineHeight": 221,
-      "tagline": "The obvious choice for any founder"
-    }
-  ],
-  "__resolveType": "website/pages/Page.tsx",
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  }
-}
+{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/Hero.tsx","companyName":"PITCH TEMPLATE","fontSize":221.33,"lineHeight":221,"tagline":"The obvious choice for any founder"},{"__resolveType":"site/sections/Footer.tsx","title":"PITCH TEMPLATE","links":[{"text":"pitchtemplate.com","href":"#"},{"text":"johndoe@pitchtemplate.com","href":"#"},{"text":"linkedin.com/johndoe","href":"#"}]}],"__resolveType":"website/pages/Page.tsx","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"}}
