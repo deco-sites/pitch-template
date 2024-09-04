@@ -17,7 +17,7 @@
   "mainColors": {
     "base-100": "#000000",
     "primary": "#FFFFFF",
-    "secondary": "#ffffff",
+    "secondary": "#E9E9E9",
     "tertiary": "#404040",
     "neutral": "#000000",
     "success": "#008060",
@@ -52,5 +52,8 @@
       }
     ]
   },
-  "mode": "light"
+  "mode": "light",
+  "complementaryColors": {
+    "base-200": "#FFFFFF"
+  }
 }
