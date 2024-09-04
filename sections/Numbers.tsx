@@ -12,7 +12,7 @@ export interface Props {
    * @maxItems 06
    */
   results: Result[];
-  variation: "variation-1" | "variation-2";
+  variation?: "variation-1" | "variation-2";
 }
 
 const DEFAULT_PROPS: Props = {
@@ -31,7 +31,7 @@ export default function Numbers(props: Props) {
   const { results, variation = "variation-1" } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <div class="w-full min-h-[982px] flex flex-col gap-12 justify-center px-24 py-20 bg-secondary font-inter text-base-100">
+    <div class="w-full min-h-[982px] flex justify-center px-24 py-20 bg-secondary font-inter text-base-100">
       {variation === "variation-1"
         ? (
           <ul class="flex flex-col gap-8 w-full">

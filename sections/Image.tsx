@@ -23,8 +23,14 @@ const DEFAULT_PROPS: Props = {
 };
 
 export default function ImageSection(props: Props) {
-  const { source, description, width = 1320, height = 682, maxWidth = "100%" } =
-    { ...DEFAULT_PROPS, ...props };
+  const {
+    source,
+    description,
+    width = 1320,
+    height = 682,
+    maxWidth = "100%",
+    preload,
+  } = { ...DEFAULT_PROPS, ...props };
 
   return (
     <div class="flex items-center justify-center px-24 w-full min-h-[982px] bg-primary text-base-100">
@@ -33,6 +39,8 @@ export default function ImageSection(props: Props) {
         alt={description}
         width={width}
         height={height}
+        preload={preload}
+        loading={preload ? "eager" : "lazy"}
         style={{ maxWidth }}
       />
     </div>
