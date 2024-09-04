@@ -9,8 +9,8 @@ import * as $$$$$$0 from "./sections/Footer.tsx";
 import * as $$$$$$1 from "./sections/Header.tsx";
 import * as $$$$$$2 from "./sections/Hero.tsx";
 import * as $$$$$$3 from "./sections/Image.tsx";
-import * as $$$$$$4 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$5 from "./sections/Logos.tsx";
+import * as $$$$$$4 from "./sections/Logos.tsx";
+import * as $$$$$$5 from "./sections/ProblemStatement.tsx";
 import * as $$$$$$6 from "./sections/Team.tsx";
 import * as $$$$$$7 from "./sections/Theme/Theme.tsx";
 
@@ -20,8 +20,8 @@ const manifest = {
     "site/sections/Header.tsx": $$$$$$1,
     "site/sections/Hero.tsx": $$$$$$2,
     "site/sections/Image.tsx": $$$$$$3,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$4,
-    "site/sections/Logos.tsx": $$$$$$5,
+    "site/sections/Logos.tsx": $$$$$$4,
+    "site/sections/ProblemStatement.tsx": $$$$$$5,
     "site/sections/Team.tsx": $$$$$$6,
     "site/sections/Theme/Theme.tsx": $$$$$$7,
   },
