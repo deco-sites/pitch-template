@@ -6,28 +6,30 @@ import * as $$$$$$$$$$$0 from "./apps/deco/ai-assistants.ts";
 import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$1 from "./sections/Header.tsx";
-import * as $$$$$$2 from "./sections/Hero.tsx";
-import * as $$$$$$3 from "./sections/Image.tsx";
-import * as $$$$$$4 from "./sections/Logos.tsx";
-import * as $$$$$$5 from "./sections/Numbers.tsx";
-import * as $$$$$$6 from "./sections/ProblemStatement.tsx";
-import * as $$$$$$7 from "./sections/Solution.tsx";
-import * as $$$$$$8 from "./sections/Team.tsx";
-import * as $$$$$$9 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$1 from "./sections/GoToMarket.tsx";
+import * as $$$$$$2 from "./sections/Header.tsx";
+import * as $$$$$$3 from "./sections/Hero.tsx";
+import * as $$$$$$4 from "./sections/Image.tsx";
+import * as $$$$$$5 from "./sections/Logos.tsx";
+import * as $$$$$$6 from "./sections/Numbers.tsx";
+import * as $$$$$$7 from "./sections/ProblemStatement.tsx";
+import * as $$$$$$8 from "./sections/Solution.tsx";
+import * as $$$$$$9 from "./sections/Team.tsx";
+import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Footer.tsx": $$$$$$0,
-    "site/sections/Header.tsx": $$$$$$1,
-    "site/sections/Hero.tsx": $$$$$$2,
-    "site/sections/Image.tsx": $$$$$$3,
-    "site/sections/Logos.tsx": $$$$$$4,
-    "site/sections/Numbers.tsx": $$$$$$5,
-    "site/sections/ProblemStatement.tsx": $$$$$$6,
-    "site/sections/Solution.tsx": $$$$$$7,
-    "site/sections/Team.tsx": $$$$$$8,
-    "site/sections/Theme/Theme.tsx": $$$$$$9,
+    "site/sections/GoToMarket.tsx": $$$$$$1,
+    "site/sections/Header.tsx": $$$$$$2,
+    "site/sections/Hero.tsx": $$$$$$3,
+    "site/sections/Image.tsx": $$$$$$4,
+    "site/sections/Logos.tsx": $$$$$$5,
+    "site/sections/Numbers.tsx": $$$$$$6,
+    "site/sections/ProblemStatement.tsx": $$$$$$7,
+    "site/sections/Solution.tsx": $$$$$$8,
+    "site/sections/Team.tsx": $$$$$$9,
+    "site/sections/Theme/Theme.tsx": $$$$$$10,
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,
