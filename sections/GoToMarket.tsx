@@ -24,8 +24,35 @@ export interface Props {
   steps: Step[];
 }
 
+const DEFAULT_PROPS: Props = {
+  title:
+    "In 2028, the Pitch Platform is the first and obvious choice for any startup founder",
+  steps: [
+    {
+      label: "Stage 01",
+      title: "Online awareness",
+      content: "Campaign page Social media Public relations a Partners",
+    },
+    {
+      label: "Stage 02",
+      title: "Online awareness",
+      content: "Campaign page Social media Public relations a Partners",
+    },
+    {
+      label: "Stage 03",
+      title: "Online awareness",
+      content: "Campaign page Social media Public relations a Partners",
+    },
+    {
+      label: "Stage 04",
+      title: "Online awareness",
+      content: "Campaign page Social media Public relations a Partners",
+    },
+  ],
+};
+
 export default function GoToMarket(props: Props) {
-  const { title, steps } = { ...props };
+  const { title, steps } = { ...DEFAULT_PROPS, ...props };
 
   const id = useId();
 
