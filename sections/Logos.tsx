@@ -23,7 +23,7 @@ export default function SectionLogos({ logos = [] }: Props) {
   if (!logos || logos.length === 0) return null;
 
   return (
-    <section class="w-full min-h-[982px] flex items-center justify-center bg-secondary text-base-100">
+    <div class="w-full min-h-[982px] flex items-center justify-center bg-primary text-base-100">
       <div class="max-w-[872px] h-full">
         <div class="flex flex-wrap gap-12 items-center justify-center">
           {logos.map((logo) => (
@@ -38,6 +38,6 @@ export default function SectionLogos({ logos = [] }: Props) {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
