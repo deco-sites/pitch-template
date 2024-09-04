@@ -15,7 +15,7 @@
     "--tab-radius": "0.5rem"
   },
   "mainColors": {
-    "base-100": "#000000",
+    "base-100": "#6504B2",
     "primary": "#FFFFFF",
     "secondary": "#ffffff",
     "tertiary": "#404040",
@@ -34,7 +34,7 @@
             "weight": "400"
           }
         ],
-        "family": "Anton"
+        "family": "Bevan"
       },
       {
         "variations": [
