@@ -100,6 +100,43 @@
       "variation": "variation-2"
     },
     {
+      "__resolveType": "site/sections/Positioning.tsx",
+      "title": "Our brands",
+      "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
+      "positioning": {
+        "leftText": "Highly Customizable",
+        "rightText": "Highly Opinionated",
+        "topText": "Affordable",
+        "bottomText": "Premium",
+        "competitors": [
+          {
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
+            "description": "Figma",
+            "width": 64,
+            "height": 64,
+            "x_positioning": 36,
+            "y_positioning": 131
+          },
+          {
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
+            "description": "Figma",
+            "width": 64,
+            "height": 64,
+            "x_positioning": 167,
+            "y_positioning": 75
+          },
+          {
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
+            "description": "Figma",
+            "width": 64,
+            "height": 64,
+            "y_positioning": -250,
+            "x_positioning": -5
+          }
+        ]
+      }
+    },
+    {
       "__resolveType": "site/sections/BarChart.tsx",
       "title": "<p>This pitch structure has helped participants raise more than <br><strong>$10M in funding</strong></p>",
       "charts": [

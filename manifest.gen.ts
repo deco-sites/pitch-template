@@ -14,11 +14,12 @@ import * as $$$$$$5 from "./sections/IdealCustomerProfile.tsx";
 import * as $$$$$$6 from "./sections/Image.tsx";
 import * as $$$$$$7 from "./sections/Logos.tsx";
 import * as $$$$$$8 from "./sections/Numbers.tsx";
-import * as $$$$$$9 from "./sections/ProblemStatement.tsx";
-import * as $$$$$$10 from "./sections/Solution.tsx";
-import * as $$$$$$11 from "./sections/Team.tsx";
-import * as $$$$$$12 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$13 from "./sections/TotalAddressableMarket.tsx";
+import * as $$$$$$9 from "./sections/Positioning.tsx";
+import * as $$$$$$10 from "./sections/ProblemStatement.tsx";
+import * as $$$$$$11 from "./sections/Solution.tsx";
+import * as $$$$$$12 from "./sections/Team.tsx";
+import * as $$$$$$13 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$14 from "./sections/TotalAddressableMarket.tsx";
 
 const manifest = {
   "sections": {
@@ -31,11 +32,12 @@ const manifest = {
     "site/sections/Image.tsx": $$$$$$6,
     "site/sections/Logos.tsx": $$$$$$7,
     "site/sections/Numbers.tsx": $$$$$$8,
-    "site/sections/ProblemStatement.tsx": $$$$$$9,
-    "site/sections/Solution.tsx": $$$$$$10,
-    "site/sections/Team.tsx": $$$$$$11,
-    "site/sections/Theme/Theme.tsx": $$$$$$12,
-    "site/sections/TotalAddressableMarket.tsx": $$$$$$13,
+    "site/sections/Positioning.tsx": $$$$$$9,
+    "site/sections/ProblemStatement.tsx": $$$$$$10,
+    "site/sections/Solution.tsx": $$$$$$11,
+    "site/sections/Team.tsx": $$$$$$12,
+    "site/sections/Theme/Theme.tsx": $$$$$$13,
+    "site/sections/TotalAddressableMarket.tsx": $$$$$$14,
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,
