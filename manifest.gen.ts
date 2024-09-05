@@ -17,6 +17,7 @@ import * as $$$$$$8 from "./sections/ProblemStatement.tsx";
 import * as $$$$$$9 from "./sections/Solution.tsx";
 import * as $$$$$$10 from "./sections/Team.tsx";
 import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$12 from "./sections/TotalAddressableMarket.tsx";
 
 const manifest = {
   "sections": {
@@ -32,6 +33,7 @@ const manifest = {
     "site/sections/Solution.tsx": $$$$$$9,
     "site/sections/Team.tsx": $$$$$$10,
     "site/sections/Theme/Theme.tsx": $$$$$$11,
+    "site/sections/TotalAddressableMarket.tsx": $$$$$$12,
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,
