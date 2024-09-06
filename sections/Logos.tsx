@@ -34,6 +34,7 @@ export default function SectionLogos({ logos = [] }: Props) {
               height={logo.height || 80}
               alt={logo.description}
               loading="lazy"
+              class="mix-blend-multiply"
             />
           ))}
         </div>

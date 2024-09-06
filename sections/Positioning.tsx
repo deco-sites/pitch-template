@@ -121,15 +121,15 @@ export default function Positioning(props: Props) {
   const { title, subtitle, positioning } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <div class="w-full min-h-[982px] flex items-center justify-center gap-14 px-24 py-20 bg-secondary font-inter text-base-100 relative">
-      <div class="flex flex-col gap-6 max-w-[480px] text-base-200">
+    <div class="w-full min-h-[982px] flex items-center justify-center gap-14 px-24 py-20 bg-success font-inter text-base-100 relative">
+      <div class="flex flex-col gap-6 max-w-[480px] text-success-content">
         <h2 class="text-[64px] leading-[80px] font-semibold">
           {title}
         </h2>
         <p class="font-normal text-2xl leading-[29.05px]">{subtitle}</p>
       </div>
 
-      <div class="flex items-center justify-center relative p-6 border-2 border-base-100 bg-primary min-w-[760px] max-w-[760px] min-h-[760px] max-h-[760px] rounded-3xl">
+      <div class="flex items-center justify-center relative p-6 border-2 border-base-100 bg-warning-content min-w-[760px] max-w-[760px] min-h-[760px] max-h-[760px] rounded-3xl">
         {positioning?.leftText && (
           <span class="text-base-100 font-normal leading-[19.36px] text-center -left-6 top-1/2 -rotate-90 absolute">
             {positioning.leftText}

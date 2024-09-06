@@ -25,7 +25,7 @@ export default function WhatWeAre(props: Props) {
 
   return (
     <div
-      class={`w-full min-h-[982px] px-24 py-20 flex flex-col font-inter relative justify-center ${
+      class={`w-full min-h-[982px] px-24 py-20 flex flex-col font-inter relative justify-center bg-info ${
         isFirstVariation ? "items-center text-center" : "items-start"
       }`}
     >
@@ -41,7 +41,7 @@ export default function WhatWeAre(props: Props) {
       />
 
       <div
-        class={`flex flex-col gap-8 text-primary z-10 justify-center ${
+        class={`flex flex-col gap-8 text-neutral-content z-10 justify-center ${
           isFirstVariation ? "items-center" : "items-start"
         }`}
       >

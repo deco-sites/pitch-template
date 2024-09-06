@@ -44,7 +44,7 @@ export default function Solution(props: Props) {
 
   return (
     <div
-      class={`flex justify-center p-20 min-h-[982px] w-full text-base-200 bg-primary font-inter ${
+      class={`flex justify-center p-20 min-h-[982px] w-full text-base-200 bg-warning font-inter ${
         variation === "variation-1"
           ? "flex-col items-start gap-20"
           : "flex-row items-center gap-6"

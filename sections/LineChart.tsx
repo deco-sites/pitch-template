@@ -129,7 +129,7 @@ export default function LineChart(props: Props) {
           dangerouslySetInnerHTML={{ __html: title || "" }}
         />
 
-        <div class="flex items-center justify-center w-full h-full max-w-[1094px] max-h-[609px] p-20 border-2 border-base-100 bg-primary rounded-[40px]">
+        <div class="flex items-center justify-center w-full h-full max-w-[1094px] max-h-[609px] p-20 border-2 border-base-100 bg-warning-content rounded-[40px]">
           <canvas id="myChart" class="w-full h-full" />
         </div>
       </div>

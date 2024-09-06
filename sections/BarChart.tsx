@@ -49,7 +49,7 @@ function Charts({ charts }: { charts: Props["charts"] }) {
   const paddingBottom = (reversedValues[0] / maxValue) * 100;
 
   return (
-    <div class="flex items-center justify-center gap-4 p-20 border-2 border-base-100 bg-primary h-[609px] w-full rounded-[40px] font-semibold leading-[19.36px] text-center">
+    <div class="flex items-center justify-center gap-4 p-20 border-2 border-base-100 bg-warning-content h-[609px] w-full rounded-[40px] font-semibold leading-[19.36px] text-center">
       <ul
         style={{ paddingBottom: paddingBottom - 40 }}
         class="flex flex-col items-center justify-start h-full"

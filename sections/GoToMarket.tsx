@@ -72,7 +72,7 @@ export default function GoToMarket(props: Props) {
             index={index}
             class="flex flex-col min-h-[274px] border border-base-100 rounded-2xl first:ml-24 last:mr-24"
           >
-            <div class="flex flex-col gap-1 items-center justify-center p-6 w-full h-[110px] bg-base-100 text-base-content rounded-t-2xl text-center">
+            <div class="flex flex-col gap-1 items-center justify-center p-6 w-full h-[110px] bg-base-100 text-base-300 rounded-t-2xl text-center">
               <span class="font-normal text-base leading-[19.36px]">
                 {step.label}
               </span>
