@@ -84,7 +84,7 @@ export default function GoToMarket(props: Props) {
             <div class="bg-base-content h-full px-6 py-6 rounded-b-2xl">
               {step.content && (
                 <div
-                  class="font-normal text-2xl leading-[29.05px]"
+                  class="font-normal text-2xl leading-[29.05px] text-neutral"
                   dangerouslySetInnerHTML={{ __html: step.content || "" }}
                 />
               )}

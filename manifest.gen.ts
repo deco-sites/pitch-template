@@ -6,10 +6,10 @@ import * as $$$$$$$$$$$0 from "./apps/deco/ai-assistants.ts";
 import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/BarChart.tsx";
-import * as $$$$$$1 from "./sections/Footer.tsx";
-import * as $$$$$$2 from "./sections/GoToMarket.tsx";
-import * as $$$$$$3 from "./sections/Header.tsx";
-import * as $$$$$$4 from "./sections/Hero.tsx";
+import * as $$$$$$1 from "./sections/Cover.tsx";
+import * as $$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$3 from "./sections/GoToMarket.tsx";
+import * as $$$$$$4 from "./sections/Header.tsx";
 import * as $$$$$$5 from "./sections/IdealCustomerProfile.tsx";
 import * as $$$$$$6 from "./sections/Image.tsx";
 import * as $$$$$$7 from "./sections/LineChart.tsx";
@@ -26,10 +26,10 @@ import * as $$$$$$16 from "./sections/WhatWeAre.tsx";
 const manifest = {
   "sections": {
     "site/sections/BarChart.tsx": $$$$$$0,
-    "site/sections/Footer.tsx": $$$$$$1,
-    "site/sections/GoToMarket.tsx": $$$$$$2,
-    "site/sections/Header.tsx": $$$$$$3,
-    "site/sections/Hero.tsx": $$$$$$4,
+    "site/sections/Cover.tsx": $$$$$$1,
+    "site/sections/Footer.tsx": $$$$$$2,
+    "site/sections/GoToMarket.tsx": $$$$$$3,
+    "site/sections/Header.tsx": $$$$$$4,
     "site/sections/IdealCustomerProfile.tsx": $$$$$$5,
     "site/sections/Image.tsx": $$$$$$6,
     "site/sections/LineChart.tsx": $$$$$$7,

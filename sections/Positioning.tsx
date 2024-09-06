@@ -122,7 +122,7 @@ export default function Positioning(props: Props) {
 
   return (
     <div class="w-full min-h-[982px] flex items-center justify-center gap-14 px-24 py-20 bg-secondary font-inter text-base-100 relative">
-      <div class="flex flex-col gap-6 max-w-[480px]">
+      <div class="flex flex-col gap-6 max-w-[480px] text-base-200">
         <h2 class="text-[64px] leading-[80px] font-semibold">
           {title}
         </h2>
