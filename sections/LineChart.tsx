@@ -1,10 +1,24 @@
-import { RichText } from "apps/admin/widgets.ts";
+import { Color, RichText } from "apps/admin/widgets.ts";
 import { Head } from "$fresh/runtime.ts";
 import { useScript } from "deco/hooks/useScript.ts";
 
 interface Chart {
   labels: string[];
   data: number[];
+  borderColor?: Color;
+  pointBackgroundColor?: Color;
+  gradient: {
+    beggin: Color;
+    end: Color;
+  };
+  /**
+   * @default false
+   */
+  displayGrids?: boolean;
+  /**
+   * @default false
+   */
+  displayBorders?: boolean;
 }
 
 export interface Props {
@@ -18,6 +32,14 @@ const DEFAULT_PROPS: Props = {
   chart: {
     labels: ["2024", "2025", "2026", "2027", "2028"],
     data: [1_000_000, 2_000_000, 3_000_000, 5_000_000, 10_000_000],
+    borderColor: "#000",
+    pointBackgroundColor: "#000",
+    gradient: {
+      beggin: "#E9E9E9",
+      end: "#FFFFFF",
+    },
+    displayBorders: false,
+    displayGrids: false,
   },
 };
 
@@ -37,8 +59,8 @@ export default function LineChart(props: Props) {
 
       if (ctx) {
         const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-        gradient.addColorStop(0, "#E9E9E9");
-        gradient.addColorStop(1, "#FFFFFF");
+        gradient.addColorStop(0, chart.gradient.beggin);
+        gradient.addColorStop(1, chart.gradient.end);
 
         const labels = chart.labels;
         const itemData = chart.data;
@@ -47,8 +69,8 @@ export default function LineChart(props: Props) {
           labels,
           datasets: [{
             data: itemData,
-            borderColor: "#000",
-            pointBackgroundColor: "#000",
+            borderColor: chart.borderColor,
+            pointBackgroundColor: chart.pointBackgroundColor,
             backgroundColor: gradient,
             fill: true,
           }],
@@ -58,6 +80,24 @@ export default function LineChart(props: Props) {
           type: "line",
           data: data,
           options: {
+            scales: {
+              y: {
+                grid: {
+                  display: chart.displayGrids,
+                },
+                border: {
+                  display: chart.displayBorders,
+                },
+              },
+              x: {
+                grid: {
+                  display: chart.displayGrids,
+                },
+                border: {
+                  display: chart.displayBorders,
+                },
+              },
+            },
             plugins: {
               legend: {
                 display: false,
