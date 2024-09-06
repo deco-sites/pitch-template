@@ -3,7 +3,7 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/Hero.tsx",
+      "__resolveType": "site/sections/Cover.tsx",
       "companyName": "PITCH TEMPLATE",
       "fontSize": 221.33,
       "lineHeight": 221,
