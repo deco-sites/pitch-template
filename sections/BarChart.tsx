@@ -30,7 +30,7 @@ export default function BarChart(props: Props) {
     <div class="w-full min-h-[982px] flex items-center justify-center px-24 py-20 bg-secondary font-inter text-base-100">
       <div class="flex flex-col items-center justify-center gap-[72px] max-w-[1096px] mx-auto">
         <div
-          class="text-[64px] leading-[77.45px] text-center font-semibold"
+          class="max-w-[1096px] text-[64px] leading-[77.45px] text-center font-semibold"
           dangerouslySetInnerHTML={{ __html: title || "" }}
         />
 
