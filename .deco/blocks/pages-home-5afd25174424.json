@@ -4,7 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Cover.tsx",
-      "companyName": "PITCH TEMPLATE",
+      "companyName": "<p>PITCH<br>TEMPLATE</p>",
       "fontSize": 221.33,
       "lineHeight": 221,
       "tagline": "The obvious choice for any founder"
