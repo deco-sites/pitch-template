@@ -3,6 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 export interface Props {
   quote: string;
   fontSize: number;
+  lineHeight?: number;
   subtitle: string;
   variation?: "variation-1" | "variation-2";
 }
@@ -10,13 +11,14 @@ export interface Props {
 const DEFAULT_PROPS: Props = {
   quote: "We are the first step for every start up",
   fontSize: 72,
+  lineHeight: 79.2,
   subtitle:
     "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
   variation: "variation-1",
 };
 
 export default function WhatWeAre(props: Props) {
-  const { quote, subtitle, fontSize = 72, variation } = {
+  const { quote, subtitle, lineHeight, fontSize = 72, variation } = {
     ...DEFAULT_PROPS,
     ...props,
   };
@@ -48,10 +50,10 @@ export default function WhatWeAre(props: Props) {
         <h2
           class={`${
             isFirstVariation
-              ? "max-w-[770px] leading-[79.2px]"
-              : "max-w-[872px] leading-[110px]"
+              ? "max-w-[770px]"
+              : "max-w-[872px]"
           } font-semibold`}
-          style={{ fontSize }}
+          style={{ fontSize, lineHeight: `${lineHeight}px` }}
         >
           {quote}
         </h2>
