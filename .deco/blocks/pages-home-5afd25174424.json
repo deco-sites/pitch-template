@@ -122,8 +122,8 @@
             "description": "Figma",
             "width": 64,
             "height": 64,
-            "y_positioning": 165,
-            "x_positioning": 300
+            "y_positioning": 175,
+            "x_positioning": -4
           },
           {
             "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/cafddbfa-83d9-454b-b764-0396fa3ac59f/Canva.png",

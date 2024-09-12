@@ -1,7 +1,6 @@
 import { Color, RichText } from "apps/admin/widgets.ts";
 import { Head } from "$fresh/runtime.ts";
-import { useScript } from "deco/hooks/useScript.ts";
-
+import { useScript } from "@deco/deco/hooks";
 interface Chart {
   labels: string[];
   data: number[];
@@ -20,18 +19,16 @@ interface Chart {
    */
   displayBorders?: boolean;
 }
-
 export interface Props {
   title: RichText;
   chart: Chart;
 }
-
 const DEFAULT_PROPS: Props = {
   title:
     "<p>This pitch structure has helped participants raise more than<br><strong>$10M in funding</strong></p>",
   chart: {
     labels: ["2024", "2025", "2026", "2027", "2028"],
-    data: [1_000_000, 2_000_000, 3_000_000, 5_000_000, 10_000_000],
+    data: [1000000, 2000000, 3000000, 5000000, 10000000],
     borderColor: "#000",
     pointBackgroundColor: "#000",
     gradient: {
@@ -42,29 +39,22 @@ const DEFAULT_PROPS: Props = {
     displayGrids: false,
   },
 };
-
 // deno-lint-ignore no-explicit-any
 declare const Chart: any;
-
 export default function LineChart(props: Props) {
   const { title, chart } = { ...DEFAULT_PROPS, ...props };
-
   const script = (chart: Chart) => {
     const canvas = document.getElementById("myChart") as
       | HTMLCanvasElement
       | null;
-
     if (canvas) {
       const ctx = canvas.getContext("2d");
-
       if (ctx) {
         const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
         gradient.addColorStop(0, chart.gradient.beggin);
         gradient.addColorStop(1, chart.gradient.end);
-
         const labels = chart.labels;
         const itemData = chart.data;
-
         const data = {
           labels,
           datasets: [{
@@ -75,7 +65,6 @@ export default function LineChart(props: Props) {
             fill: true,
           }],
         };
-
         const config = {
           type: "line",
           data: data,
@@ -105,7 +94,6 @@ export default function LineChart(props: Props) {
             },
           },
         };
-
         new Chart(ctx, config);
       } else {
         console.error("Não foi possível obter o contexto 2D do canvas.");
@@ -116,7 +104,6 @@ export default function LineChart(props: Props) {
       );
     }
   };
-
   return (
     <>
       <Head>

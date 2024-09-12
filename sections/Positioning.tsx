@@ -11,10 +11,14 @@ interface Competitor {
   height?: number;
   /**
    * @title Logo Positioning X
+   * @exclusiveMinimum -5
+   * @exclusiveMaximum 471
    */
   "x_positioning": number;
   /**
    * @title Logo Positioning Y
+   * @exclusiveMinimum -271
+   * @exclusiveMaximum 201
    */
   "y_positioning": number;
 }

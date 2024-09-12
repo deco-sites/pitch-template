@@ -49,9 +49,7 @@ export default function WhatWeAre(props: Props) {
       >
         <h2
           class={`${
-            isFirstVariation
-              ? "max-w-[770px]"
-              : "max-w-[872px]"
+            isFirstVariation ? "max-w-[770px]" : "max-w-[872px]"
           } font-semibold`}
           style={{ fontSize, lineHeight: `${lineHeight}px` }}
         >
