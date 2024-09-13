@@ -4,10 +4,13 @@
   "sections": [
     {
       "__resolveType": "site/sections/Cover.tsx",
-      "companyName": "<p>PITCH<br>TEMPLATE</p>",
       "fontSize": 221.33,
       "lineHeight": 221,
-      "tagline": "The obvious choice for any founder"
+      "tagline": "The obvious choice for any founder",
+      "companyName": {
+        "__resolveType": "GlobalText"
+      },
+      "breakCompanyName": true
     },
     {
       "__resolveType": "site/sections/Team.tsx",
@@ -298,7 +301,9 @@
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
-      "title": "PITCH TEMPLATE",
+      "title": {
+        "__resolveType": "GlobalText"
+      },
       "links": [
         {
           "text": "pitchtemplate.com",
