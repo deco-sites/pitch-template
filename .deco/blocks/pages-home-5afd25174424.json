@@ -13,8 +13,8 @@
     },
     {
       "__resolveType": "site/sections/Team.tsx",
-      "title": "Meet the team",
-      "subtitle": "These are the minds behind the Pitch Template",
+      "title": "Our Team",
+      "subtitle": "Creating a future where language unlock high performance.",
       "members": [
         {
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
@@ -60,12 +60,11 @@
     },
     {
       "__resolveType": "site/sections/ProblemStatement.tsx",
-      "problemStatement": "Participants need a deck template to add information regarding their company",
+      "problemStatement": "Companies struggle to keep their teams in high performance.",
       "type": "number",
       "subtopics": [
-        "They don't have time to build on their own",
-        "They need a guide to better prepare their storytelling",
-        "They need a guide to better prepare their storytelling"
+        "Trainings are not scalable and are not embedded in real daily challenges.",
+        "There is no tool to incorporate the team's desired futures into their routine."
       ],
       "variation": {
         "type": "number",
@@ -74,7 +73,7 @@
     },
     {
       "__resolveType": "site/sections/Solution.tsx",
-      "solution": "<p>Creating a template in the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Deco.cx\"><strong>Deco.cx</strong></a> platform solves this issue</p>",
+      "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
       "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
       "image": {
         "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/821da2cb-1b81-4414-8785-c224f863e4b9/Screenshot-2024-09-13-at-10.59.38.png",
@@ -86,8 +85,8 @@
     },
     {
       "__resolveType": "site/sections/WhatWeAre.tsx",
-      "quote": "We are the first step for every start up",
-      "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
+      "quote": "A platform for high performance teams and individuals.",
+      "subtitle": "Keep the present informed by the future.",
       "fontSize": 72,
       "variation": "variation-1",
       "lineHeight": 79.2
@@ -97,10 +96,9 @@
       "title": "Our brands",
       "subtitle": "Made partnerships with VCs that believein the pitch idea to form an stellar team",
       "positioning": {
-        "leftText": "Highly Customizable",
-        "rightText": "Highly Opinionated",
-        "topText": "Affordable",
-        "bottomText": "Premium",
+        "leftText": "Alinhamento",
+        "rightText": " ",
+        "bottomText": " Comunicação Organizacional",
         "competitors": [
           {
             "type": {
@@ -167,7 +165,8 @@
             "x_positioning": 400,
             "y_positioning": -265
           }
-        ]
+        ],
+        "topText": " "
       }
     },
     {
