@@ -97,10 +97,9 @@
       "title": "Our brands",
       "subtitle": "Made partnerships with VCs that believein the pitch idea to form an stellar team",
       "positioning": {
-        "leftText": "Highly Customizable",
-        "rightText": "Highly Opinionated",
-        "topText": "Affordable",
-        "bottomText": "Premium",
+        "leftText": "Alinhamento",
+        "rightText": " ",
+        "bottomText": " Comunicação Organizacional",
         "competitors": [
           {
             "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
@@ -150,7 +149,8 @@
             "y_positioning": -265,
             "x_positioning": 400
           }
-        ]
+        ],
+        "topText": " "
       }
     },
     {
