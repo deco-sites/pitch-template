@@ -4,7 +4,6 @@
   "sections": [
     {
       "__resolveType": "site/sections/Cover.tsx",
-      "companyName": "<p>PITCH <br>TEMPLATE</p>",
       "fontSize": 200,
       "lineHeight": 221,
       "tagline": "The obvious choice for any founder",
@@ -14,8 +13,6 @@
     },
     {
       "__resolveType": "site/sections/Team.tsx",
-      "title": "Our Team",
-      "subtitle": "Creating a future where language unlock high performance.",
       "title": "Our Team",
       "subtitle": "Creating a future where language unlock high performance.",
       "members": [
@@ -82,7 +79,6 @@
     {
       "__resolveType": "site/sections/Solution.tsx",
       "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
-      "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
       "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
       "image": {
         "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/821da2cb-1b81-4414-8785-c224f863e4b9/Screenshot-2024-09-13-at-10.59.38.png",
@@ -96,8 +92,6 @@
       "__resolveType": "site/sections/WhatWeAre.tsx",
       "quote": "A platform for high performance teams and individuals.",
       "subtitle": "Keep the present informed by the future.",
-      "quote": "A platform for high performance teams and individuals.",
-      "subtitle": "Keep the present informed by the future.",
       "fontSize": 72,
       "variation": "variation-1",
       "lineHeight": 79.2
@@ -107,12 +101,8 @@
       "title": "Our brands",
       "subtitle": "Made partnerships with VCs that believein the pitch idea to form an stellar team",
       "positioning": {
-        "leftText": "Alinhamento",
-        "rightText": " ",
         "bottomText": " Comunicação Organizacional",
         "leftText": "Alinhamento",
-        "rightText": " ",
-        "bottomText": " Comunicação Organizacional",
         "competitors": [
           {
             "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
@@ -176,8 +166,6 @@
             "x_positioning": 400,
             "y_positioning": -265
           }
-        ],
-        "topText": " "
         ],
         "topText": " "
       }
