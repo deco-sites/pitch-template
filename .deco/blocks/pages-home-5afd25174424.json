@@ -4,7 +4,8 @@
   "sections": [
     {
       "__resolveType": "site/sections/Cover.tsx",
-      "fontSize": 221.33,
+      "companyName": "<p>PITCH <br>TEMPLATE</p>",
+      "fontSize": 200,
       "lineHeight": 221,
       "tagline": "The obvious choice for any founder",
       "companyName": {
@@ -29,13 +30,17 @@
           "linkedin": "#"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/d0c234d7-b277-4728-87b2-32efb19d986e/image-12.png",
-          "name": "Author Example",
+          "image": {
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/21eb4ab6-9f0d-406b-b1a1-9f8c857cc412/Smiling-Man-Arms-Crossed-1.png",
+            "description": "Fourth Image"
+          },
           "linkedin": "#"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/21eb4ab6-9f0d-406b-b1a1-9f8c857cc412/Smiling-Man-Arms-Crossed-1.png",
-          "name": "Author Example",
+          "image": {
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/d0c234d7-b277-4728-87b2-32efb19d986e/image-12.png",
+            "description": "Third Image"
+          },
           "linkedin": "#"
         },
         {
@@ -62,15 +67,13 @@
     },
     {
       "__resolveType": "site/sections/ProblemStatement.tsx",
-      "problemStatement": "Companies struggle to keep their teams in high performance.",
-      "problemStatement": "Companies struggle to keep their teams in high performance.",
       "type": "number",
       "subtopics": [
-        "Trainings are not scalable and are not embedded in real daily challenges.",
-        "There is no tool to incorporate the team's desired futures into their routine."
-        "Trainings are not scalable and are not embedded in real daily challenges.",
-        "There is no tool to incorporate the team's desired futures into their routine."
+        "They need a guide to better prepare their storytelling",
+        "They don't have time to build on their own",
+        "They need a guide to better prepare their storytelling"
       ],
+      "problemStatement": "Participants need a deck template to add information regarding their company",
       "variation": {
         "type": "number",
         "variation": "FirstVariation"
@@ -112,15 +115,12 @@
         "bottomText": " Comunicação Organizacional",
         "competitors": [
           {
-            "type": {
-              "variation": "Image",
-              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
-              "description": "Figma",
-              "width": 64,
-              "height": 64
-            },
-            "x_positioning": 10,
-            "y_positioning": 165
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
+            "description": "Figma",
+            "width": 64,
+            "height": 64,
+            "y_positioning": 165,
+            "x_positioning": 0
           },
           {
             "type": {
