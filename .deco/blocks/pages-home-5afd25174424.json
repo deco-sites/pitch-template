@@ -133,6 +133,16 @@
             },
             "x_positioning": 100,
             "y_positioning": 60
+          },
+          {
+            "type": {
+              "variation": "Text",
+              "element": {
+                "__resolveType": "GlobalText"
+              }
+            },
+            "y_positioning": -265,
+            "x_positioning": 400
           }
         ]
       }
