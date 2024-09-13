@@ -4,71 +4,57 @@
   "sections": [
     {
       "__resolveType": "site/sections/Cover.tsx",
-      "companyName": "<p>PITCH<br>TEMPLATE</p>",
+      "companyName": "<p>MIRA.LC</p>",
       "fontSize": 221.33,
       "lineHeight": 221,
-      "tagline": "The obvious choice for any founder"
+      "tagline": "Transforme suas conversas. Transforme seus resultados. "
     },
     {
       "__resolveType": "site/sections/Team.tsx",
-      "title": "Meet the team",
-      "subtitle": "These are the minds behind the Pitch Template",
+      "title": "Nosso time",
+      "subtitle": "Indivíduos comprometidos com um futuro além do óvio.",
       "members": [
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
-            "description": "First Image"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ec25ef3d-e58a-4090-830f-675c5e6968da/mari-gomes.jpeg",
+            "description": "Mari Gomes"
           },
-          "linkedin": "#"
+          "linkedin": "https://www.linkedin.com/in/mariana-gomes-222b8aa4/"
         },
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a915def0-bd2c-48db-9354-d95b54fcf100/image-11.png",
-            "description": "Second Image"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/35a571ce-dca5-4012-b664-247adeb61824/monteiro.jpeg",
+            "description": "Mari Monteiro"
           },
-          "linkedin": "#"
+          "linkedin": "https://www.linkedin.com/in/mari-monteiro-7272372b5/"
         },
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/d0c234d7-b277-4728-87b2-32efb19d986e/image-12.png",
-            "description": "Third Image"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/0d7fbbca-64a9-42cd-8ef2-13b975b3daca/fernanda-vaz.jpeg",
+            "description": "Fernanda Vaz"
           },
-          "linkedin": "#"
+          "linkedin": "https://www.linkedin.com/in/fernandavaz/"
         },
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/21eb4ab6-9f0d-406b-b1a1-9f8c857cc412/Smiling-Man-Arms-Crossed-1.png",
-            "description": "Fourth Image"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/c56d63f7-e4c6-40ab-a03d-48b51bd5af54/gabriel-carvalbho.jpeg",
+            "description": "Galc"
           },
-          "linkedin": "#"
+          "linkedin": "https://www.linkedin.com/in/gabrielgalc/"
         },
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a35c9018-1c7b-4061-990f-a17b1eded3cc/Yellow-Shirt-Woman.png",
-            "description": "Fifth Image"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/81ff760e-9fdf-408d-b6f8-c9369cc53bf3/bacic.jpeg",
+            "description": "Lucas Bacic"
           },
-          "linkedin": "#"
+          "linkedin": "https://www.linkedin.com/in/baciclucas/"
         },
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ccf9f1e1-2a94-4417-9dd7-16d0a9ba4d7c/image-16.png",
-            "description": "Sixth Image"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/4c899c79-cac6-425d-aa12-957bfe9f7c05/kobus.jpeg",
+            "description": "Giovana Kobus"
           },
-          "linkedin": "#"
-        },
-        {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/6896b222-5bfb-48fc-924a-a22b4f3ae376/image-17.png",
-            "description": "Seventh Image"
-          },
-          "linkedin": "#"
-        },
-        {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/eb962fc2-9a98-420c-a288-ad17857dfc66/image-18.png",
-            "description": "Eighteen Image"
-          },
-          "linkedin": "#"
+          "linkedin": "https://www.linkedin.com/in/giovanna-conrado-390235155/"
         }
       ]
     },
