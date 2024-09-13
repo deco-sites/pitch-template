@@ -15,6 +15,8 @@
       "__resolveType": "site/sections/Team.tsx",
       "title": "Our Team",
       "subtitle": "Creating a future where language unlock high performance.",
+      "title": "Our Team",
+      "subtitle": "Creating a future where language unlock high performance.",
       "members": [
         {
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
@@ -61,8 +63,11 @@
     {
       "__resolveType": "site/sections/ProblemStatement.tsx",
       "problemStatement": "Companies struggle to keep their teams in high performance.",
+      "problemStatement": "Companies struggle to keep their teams in high performance.",
       "type": "number",
       "subtopics": [
+        "Trainings are not scalable and are not embedded in real daily challenges.",
+        "There is no tool to incorporate the team's desired futures into their routine."
         "Trainings are not scalable and are not embedded in real daily challenges.",
         "There is no tool to incorporate the team's desired futures into their routine."
       ],
@@ -73,6 +78,7 @@
     },
     {
       "__resolveType": "site/sections/Solution.tsx",
+      "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
       "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
       "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
       "image": {
@@ -87,6 +93,8 @@
       "__resolveType": "site/sections/WhatWeAre.tsx",
       "quote": "A platform for high performance teams and individuals.",
       "subtitle": "Keep the present informed by the future.",
+      "quote": "A platform for high performance teams and individuals.",
+      "subtitle": "Keep the present informed by the future.",
       "fontSize": 72,
       "variation": "variation-1",
       "lineHeight": 79.2
@@ -96,6 +104,9 @@
       "title": "Our brands",
       "subtitle": "Made partnerships with VCs that believein the pitch idea to form an stellar team",
       "positioning": {
+        "leftText": "Alinhamento",
+        "rightText": " ",
+        "bottomText": " Comunicação Organizacional",
         "leftText": "Alinhamento",
         "rightText": " ",
         "bottomText": " Comunicação Organizacional",
@@ -165,6 +176,8 @@
             "x_positioning": 400,
             "y_positioning": -265
           }
+        ],
+        "topText": " "
         ],
         "topText": " "
       }
