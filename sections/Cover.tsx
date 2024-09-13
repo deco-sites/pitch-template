@@ -2,7 +2,6 @@ import { GlobalText } from "site/loaders/text.ts";
 
 export interface Props {
   companyName: GlobalText;
-  breakCompanyName?: boolean;
   fontSize?: number;
   lineHeight?: number;
   tagline?: string;
@@ -20,7 +19,6 @@ const DEFAULT_PROPS: Props = {
 export default function Cover(props: Props) {
   const {
     companyName,
-    breakCompanyName,
     fontSize,
     lineHeight,
     tagline,
@@ -31,12 +29,11 @@ export default function Cover(props: Props) {
 
   return (
     <div class="flex flex-col items-center justify-center gap-8 w-full min-h-[982px] xl:max-w-[90%] mx-auto text-primary font-normal text-center">
-      <h1
+      <div
         style={{ fontSize, lineHeight: `${lineHeight}px` }}
-        class={`${breakCompanyName ? "w-3/4" : "w-full"} text-center`}
-      >
-        {companyName.text}
-      </h1>
+        dangerouslySetInnerHTML={{ __html: companyName.text }}
+        class="text-center"
+      />
 
       <h2 class="text-2xl font-inter leading-7">{tagline}</h2>
     </div>

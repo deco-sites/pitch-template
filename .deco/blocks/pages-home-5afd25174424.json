@@ -9,8 +9,7 @@
       "tagline": "The obvious choice for any founder",
       "companyName": {
         "__resolveType": "GlobalText"
-      },
-      "breakCompanyName": true
+      }
     },
     {
       "__resolveType": "site/sections/Team.tsx",
@@ -18,59 +17,43 @@
       "subtitle": "These are the minds behind the Pitch Template",
       "members": [
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
-            "description": "First Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
+          "name": "Author Example",
           "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a915def0-bd2c-48db-9354-d95b54fcf100/image-11.png",
-            "description": "Second Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a915def0-bd2c-48db-9354-d95b54fcf100/image-11.png",
+          "name": "Author Example",
           "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/d0c234d7-b277-4728-87b2-32efb19d986e/image-12.png",
-            "description": "Third Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/d0c234d7-b277-4728-87b2-32efb19d986e/image-12.png",
+          "name": "Author Example",
           "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/21eb4ab6-9f0d-406b-b1a1-9f8c857cc412/Smiling-Man-Arms-Crossed-1.png",
-            "description": "Fourth Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/21eb4ab6-9f0d-406b-b1a1-9f8c857cc412/Smiling-Man-Arms-Crossed-1.png",
+          "name": "Author Example",
           "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a35c9018-1c7b-4061-990f-a17b1eded3cc/Yellow-Shirt-Woman.png",
-            "description": "Fifth Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a35c9018-1c7b-4061-990f-a17b1eded3cc/Yellow-Shirt-Woman.png",
+          "name": "Author Example",
           "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ccf9f1e1-2a94-4417-9dd7-16d0a9ba4d7c/image-16.png",
-            "description": "Sixth Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ccf9f1e1-2a94-4417-9dd7-16d0a9ba4d7c/image-16.png",
+          "name": "Author Example",
           "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/6896b222-5bfb-48fc-924a-a22b4f3ae376/image-17.png",
-            "description": "Seventh Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/6896b222-5bfb-48fc-924a-a22b4f3ae376/image-17.png",
+          "name": "Author Example",
           "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/eb962fc2-9a98-420c-a288-ad17857dfc66/image-18.png",
-            "description": "Eighteen Image"
-          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/eb962fc2-9a98-420c-a288-ad17857dfc66/image-18.png",
+          "name": "Author Example",
           "linkedin": "#"
         }
       ]
@@ -86,7 +69,6 @@
       ],
       "variation": {
         "type": "number",
-        "@variation": "FirstVariation",
         "variation": "FirstVariation"
       }
     },
@@ -95,12 +77,12 @@
       "solution": "<p>Creating a template in the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Deco.cx\"><strong>Deco.cx</strong></a> platform solves this issue</p>",
       "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
       "image": {
-        "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/481eb324-102a-4ef0-8260-5d6f8deb1739/Second-Frame.png",
+        "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/821da2cb-1b81-4414-8785-c224f863e4b9/Screenshot-2024-09-13-at-10.59.38.png",
         "description": "Frame Image",
-        "width": 664,
-        "height": 664
+        "width": 1600,
+        "height": 452
       },
-      "variation": "variation-2"
+      "variation": "variation-1"
     },
     {
       "__resolveType": "site/sections/WhatWeAre.tsx",
@@ -121,52 +103,69 @@
         "bottomText": "Premium",
         "competitors": [
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
-            "description": "Figma",
-            "width": 64,
-            "height": 64,
-            "y_positioning": 175,
-            "x_positioning": -4
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
+              "description": "Figma",
+              "width": 64,
+              "height": 64
+            },
+            "x_positioning": 10,
+            "y_positioning": 165
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/cafddbfa-83d9-454b-b764-0396fa3ac59f/Canva.png",
-            "description": "Canva",
-            "width": 64,
-            "height": 64,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/cafddbfa-83d9-454b-b764-0396fa3ac59f/Canva.png",
+              "description": "Canva",
+              "width": 64,
+              "height": 64
+            },
             "x_positioning": 85,
             "y_positioning": 55
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/89907d5f-1ddf-494d-8ffa-ae2d572b5333/Icon.png",
-            "description": "Icon",
-            "width": 64,
-            "height": 64,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/89907d5f-1ddf-494d-8ffa-ae2d572b5333/Icon.png",
+              "description": "Icon",
+              "width": 64,
+              "height": 64
+            },
             "y_positioning": -130,
             "x_positioning": 80
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/3bfa4b08-60cf-4673-9eaf-7cea26a1acb1/Google.png",
-            "description": "Google",
-            "width": 47,
-            "height": 64,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/3bfa4b08-60cf-4673-9eaf-7cea26a1acb1/Google.png",
+              "description": "Google",
+              "width": 47,
+              "height": 64
+            },
             "y_positioning": -270,
             "x_positioning": 200
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/16c5f2d8-939f-4bfd-b8db-8189ad1849ce/Second-Icon.png",
-            "description": "Second Icon",
-            "width": 64,
-            "height": 51,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/16c5f2d8-939f-4bfd-b8db-8189ad1849ce/Second-Icon.png",
+              "description": "Second Icon",
+              "width": 64,
+              "height": 51
+            },
             "x_positioning": 350,
             "y_positioning": 50
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/1e48de3f-21d9-4cc3-b9b6-4c59663b6544/PITCHTEMPLATE.png",
-            "height": 60,
-            "width": 120,
-            "description": "Pitch Template",
-            "y_positioning": -265,
-            "x_positioning": 400
+            "type": {
+              "variation": "Text",
+              "element": {
+                "__resolveType": "GlobalText"
+              }
+            },
+            "x_positioning": 400,
+            "y_positioning": -265
           }
         ]
       }

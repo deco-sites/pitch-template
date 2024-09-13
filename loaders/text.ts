@@ -1,4 +1,6 @@
-export type GlobalText = { text: string };
+import { RichText } from "apps/admin/widgets.ts";
+
+export type GlobalText = { text: RichText };
 
 export interface Props {
   content: GlobalText;

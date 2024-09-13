@@ -2,13 +2,14 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 /**
- * @titleBy linkedin
+ * @titleBy name
  */
 interface Member {
-  image: {
-    source: ImageWidget;
-    description: string;
-  };
+  image: ImageWidget;
+  /**
+   * @title Name and Surname
+   */
+  name: string;
   linkedin: string;
 }
 
@@ -26,35 +27,27 @@ const DEFAULT_PROPS: Props = {
   title: "Meet the team",
   members: [
     {
-      image: {
-        source:
-          "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
-        description: "First Banner",
-      },
+      image:
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
+      name: "First Banner",
       linkedin: "#",
     },
     {
-      image: {
-        source:
-          "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
-        description: "First Banner",
-      },
+      image:
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
+      name: "First Banner",
       linkedin: "#",
     },
     {
-      image: {
-        source:
-          "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
-        description: "First Banner",
-      },
+      image:
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
+      name: "First Banner",
       linkedin: "#",
     },
     {
-      image: {
-        source:
-          "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
-        description: "First Banner",
-      },
+      image:
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
+      name: "First Banner",
       linkedin: "#",
     },
   ],
@@ -84,8 +77,8 @@ export default function Team(props: Props) {
             class="w-full h-full rounded-3xl group-hover:opacity-30 group-hover:hover:opacity-100 transition-opacity duration-300"
           >
             <Image
-              src={member.image.source}
-              alt={member.image.description}
+              src={member.image}
+              alt={member.name}
               width={312}
               height={312}
               class="w-full h-full object-cover rounded-3xl"
