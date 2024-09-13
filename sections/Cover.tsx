@@ -1,21 +1,28 @@
-import type { RichText } from "apps/admin/widgets.ts";
+import { GlobalText } from "site/loaders/text.ts";
 
 export interface Props {
-  companyName: RichText;
+  companyName: GlobalText;
   fontSize?: number;
   lineHeight?: number;
   tagline?: string;
 }
 
 const DEFAULT_PROPS: Props = {
-  companyName: "PITCH TEMPLATE",
+  companyName: {
+    text: "PITCH TEMPLATE",
+  },
   fontSize: 221,
   lineHeight: 221,
   tagline: "The obvious choice for any founder",
 };
 
 export default function Cover(props: Props) {
-  const { companyName, fontSize, lineHeight, tagline } = {
+  const {
+    companyName,
+    fontSize,
+    lineHeight,
+    tagline,
+  } = {
     ...DEFAULT_PROPS,
     ...props,
   };
@@ -24,7 +31,7 @@ export default function Cover(props: Props) {
     <div class="flex flex-col items-center justify-center gap-8 w-full min-h-[982px] xl:max-w-[90%] mx-auto text-primary font-normal text-center">
       <div
         style={{ fontSize, lineHeight: `${lineHeight}px` }}
-        dangerouslySetInnerHTML={{ __html: companyName }}
+        dangerouslySetInnerHTML={{ __html: companyName.text }}
         class="text-center"
       />
 

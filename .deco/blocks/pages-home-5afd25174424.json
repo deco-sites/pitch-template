@@ -4,88 +4,95 @@
   "sections": [
     {
       "__resolveType": "site/sections/Cover.tsx",
-      "companyName": "<p>MIRA.LC</p>",
       "fontSize": 221.33,
       "lineHeight": 221,
-      "tagline": "We are committed to a future where language and technology enable a high performance path for millions of people."
+      "tagline": "The obvious choice for any founder",
+      "companyName": {
+        "__resolveType": "GlobalText"
+      }
     },
     {
       "__resolveType": "site/sections/Team.tsx",
       "title": "Our Team",
       "subtitle": "Creating a future where language unlock high performance.",
+      "title": "Our Team",
+      "subtitle": "Creating a future where language unlock high performance.",
       "members": [
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ec25ef3d-e58a-4090-830f-675c5e6968da/mari-gomes.jpeg",
-            "description": "Mari Gomes"
-          },
-          "linkedin": "https://www.linkedin.com/in/mariana-gomes-222b8aa4/"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/79d6ae02-de2f-4a63-b738-4d394e764026/image-15.png",
+          "name": "Author Example",
+          "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/35a571ce-dca5-4012-b664-247adeb61824/monteiro.jpeg",
-            "description": "Mari Monteiro"
-          },
-          "linkedin": "https://www.linkedin.com/in/mari-monteiro-7272372b5/"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a915def0-bd2c-48db-9354-d95b54fcf100/image-11.png",
+          "name": "Author Example",
+          "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/0d7fbbca-64a9-42cd-8ef2-13b975b3daca/fernanda-vaz.jpeg",
-            "description": "Fernanda Vaz"
-          },
-          "linkedin": "https://www.linkedin.com/in/fernandavaz/"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/d0c234d7-b277-4728-87b2-32efb19d986e/image-12.png",
+          "name": "Author Example",
+          "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/c56d63f7-e4c6-40ab-a03d-48b51bd5af54/gabriel-carvalbho.jpeg",
-            "description": "Galc"
-          },
-          "linkedin": "https://www.linkedin.com/in/gabrielgalc/"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/21eb4ab6-9f0d-406b-b1a1-9f8c857cc412/Smiling-Man-Arms-Crossed-1.png",
+          "name": "Author Example",
+          "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/3800c672-b837-499c-9efb-78093df14d1d/Alan-Prando.jpeg",
-            "description": "Alan Prando"
-          },
-          "linkedin": "https://www.linkedin.com/in/avprando/"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/a35c9018-1c7b-4061-990f-a17b1eded3cc/Yellow-Shirt-Woman.png",
+          "name": "Author Example",
+          "linkedin": "#"
         },
         {
-          "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/388721d5-062a-41e4-b463-62d781d88c1f/orem.jpeg",
-            "description": "Rodrigo Orem"
-          },
-          "linkedin": "https://www.linkedin.com/in/rodrigo-orem/"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ccf9f1e1-2a94-4417-9dd7-16d0a9ba4d7c/image-16.png",
+          "name": "Author Example",
+          "linkedin": "#"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/6896b222-5bfb-48fc-924a-a22b4f3ae376/image-17.png",
+          "name": "Author Example",
+          "linkedin": "#"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/eb962fc2-9a98-420c-a288-ad17857dfc66/image-18.png",
+          "name": "Author Example",
+          "linkedin": "#"
         }
       ]
     },
     {
       "__resolveType": "site/sections/ProblemStatement.tsx",
       "problemStatement": "Companies struggle to keep their teams in high performance.",
+      "problemStatement": "Companies struggle to keep their teams in high performance.",
       "type": "number",
       "subtopics": [
+        "Trainings are not scalable and are not embedded in real daily challenges.",
+        "There is no tool to incorporate the team's desired futures into their routine."
         "Trainings are not scalable and are not embedded in real daily challenges.",
         "There is no tool to incorporate the team's desired futures into their routine."
       ],
       "variation": {
         "type": "number",
-        "@variation": "FirstVariation",
         "variation": "FirstVariation"
       }
     },
     {
       "__resolveType": "site/sections/Solution.tsx",
       "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
+      "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
       "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
       "image": {
-        "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/481eb324-102a-4ef0-8260-5d6f8deb1739/Second-Frame.png",
+        "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/821da2cb-1b81-4414-8785-c224f863e4b9/Screenshot-2024-09-13-at-10.59.38.png",
         "description": "Frame Image",
-        "width": 680,
-        "height": 684
+        "width": 1600,
+        "height": 452
       },
-      "variation": "variation-2"
+      "variation": "variation-1"
     },
     {
       "__resolveType": "site/sections/WhatWeAre.tsx",
+      "quote": "A platform for high performance teams and individuals.",
+      "subtitle": "Keep the present informed by the future.",
       "quote": "A platform for high performance teams and individuals.",
       "subtitle": "Keep the present informed by the future.",
       "fontSize": 72,
@@ -100,55 +107,77 @@
         "leftText": "Alinhamento",
         "rightText": " ",
         "bottomText": " Comunicação Organizacional",
+        "leftText": "Alinhamento",
+        "rightText": " ",
+        "bottomText": " Comunicação Organizacional",
         "competitors": [
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
-            "description": "Figma",
-            "width": 64,
-            "height": 64,
-            "y_positioning": 175,
-            "x_positioning": -4
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/8ad9f71d-7218-48ef-b225-c348cd169bfb/Figma.png",
+              "description": "Figma",
+              "width": 64,
+              "height": 64
+            },
+            "x_positioning": 10,
+            "y_positioning": 165
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/cafddbfa-83d9-454b-b764-0396fa3ac59f/Canva.png",
-            "description": "Canva",
-            "width": 64,
-            "height": 64,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/cafddbfa-83d9-454b-b764-0396fa3ac59f/Canva.png",
+              "description": "Canva",
+              "width": 64,
+              "height": 64
+            },
             "x_positioning": 85,
             "y_positioning": 55
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/89907d5f-1ddf-494d-8ffa-ae2d572b5333/Icon.png",
-            "description": "Icon",
-            "width": 64,
-            "height": 64,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/89907d5f-1ddf-494d-8ffa-ae2d572b5333/Icon.png",
+              "description": "Icon",
+              "width": 64,
+              "height": 64
+            },
             "y_positioning": -130,
             "x_positioning": 80
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/3bfa4b08-60cf-4673-9eaf-7cea26a1acb1/Google.png",
-            "description": "Google",
-            "width": 47,
-            "height": 64,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/3bfa4b08-60cf-4673-9eaf-7cea26a1acb1/Google.png",
+              "description": "Google",
+              "width": 47,
+              "height": 64
+            },
             "y_positioning": -270,
             "x_positioning": 200
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/16c5f2d8-939f-4bfd-b8db-8189ad1849ce/Second-Icon.png",
-            "description": "Second Icon",
-            "width": 64,
-            "height": 51,
+            "type": {
+              "variation": "Image",
+              "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/16c5f2d8-939f-4bfd-b8db-8189ad1849ce/Second-Icon.png",
+              "description": "Second Icon",
+              "width": 64,
+              "height": 51
+            },
             "x_positioning": 350,
             "y_positioning": 50
           },
           {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/1e48de3f-21d9-4cc3-b9b6-4c59663b6544/PITCHTEMPLATE.png",
-            "height": 60,
-            "width": 120,
-            "description": "Pitch Template",
-            "y_positioning": -265,
-            "x_positioning": 400
+            "type": {
+              "variation": "Text",
+              "element": {
+                "__resolveType": "GlobalText"
+              }
+            },
+            "x_positioning": 400,
+            "y_positioning": -265
           }
+        ],
+        "topText": " "
         ],
         "topText": " "
       }
@@ -283,7 +312,9 @@
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
-      "title": "PITCH TEMPLATE",
+      "title": {
+        "__resolveType": "GlobalText"
+      },
       "links": [
         {
           "text": "pitchtemplate.com",

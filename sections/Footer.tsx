@@ -1,10 +1,12 @@
+import { GlobalText } from "site/loaders/text.ts";
+
 interface Link {
   text: string;
   href: string;
 }
 
 export interface Props {
-  title: string;
+  title: GlobalText;
   /**
    * @minItems 01
    * @maxItems 05
@@ -13,7 +15,9 @@ export interface Props {
 }
 
 const DEFAULT_PROPS: Props = {
-  title: "PITCH TEMPLATE",
+  title: {
+    text: "PITCH TEMPLATE",
+  },
   links: [
     {
       text: "pitchtemplate.com",
@@ -35,9 +39,10 @@ export default function Footer(props: Props) {
 
   return (
     <footer class="w-full min-h-[982px] flex flex-col gap-12 items-start justify-center px-24 text-primary">
-      <h1 class="max-w-lg text-[88.53px] leading-[88.4px] font-normal">
-        {title}
-      </h1>
+      <div
+        class="max-w-lg text-[88.53px] leading-[88.4px] font-normal"
+        dangerouslySetInnerHTML={{ __html: title.text }}
+      />
 
       <ul class="flex flex-col gap-4 text-lg font-inter">
         {links.map((link) => (
