@@ -60,7 +60,7 @@
     },
     {
       "__resolveType": "site/sections/ProblemStatement.tsx",
-      "problemStatement": "Companies have difficult to keep their teams in high performance.",
+      "problemStatement": "Companies struggle to keep their teams in high performance.",
       "type": "number",
       "subtopics": [
         "Trainings are not scalable and are not embedded in real daily challenges.",
