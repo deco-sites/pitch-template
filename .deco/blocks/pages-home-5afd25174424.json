@@ -21,23 +21,38 @@
           "linkedin": "#"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ec25ef3d-e58a-4090-830f-675c5e6968da/mari-gomes.jpeg",
-          "name": "Mari",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/35a571ce-dca5-4012-b664-247adeb61824/monteiro.jpeg",
+          "name": "Example",
           "linkedin": "#"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ec25ef3d-e58a-4090-830f-675c5e6968da/mari-gomes.jpeg",
-          "name": "Mari",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/0d7fbbca-64a9-42cd-8ef2-13b975b3daca/fernanda-vaz.jpeg",
+          "name": "Example",
           "linkedin": "#"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ec25ef3d-e58a-4090-830f-675c5e6968da/mari-gomes.jpeg",
-          "name": "Mari",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/c56d63f7-e4c6-40ab-a03d-48b51bd5af54/gabriel-carvalbho.jpeg",
+          "name": "Example",
           "linkedin": "#"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/ec25ef3d-e58a-4090-830f-675c5e6968da/mari-gomes.jpeg",
-          "name": "Mari",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/4c899c79-cac6-425d-aa12-957bfe9f7c05/kobus.jpeg",
+          "name": "Example",
+          "linkedin": "#"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/81ff760e-9fdf-408d-b6f8-c9369cc53bf3/bacic.jpeg",
+          "name": "Example",
+          "linkedin": "#"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/388721d5-062a-41e4-b463-62d781d88c1f/orem.jpeg",
+          "name": "Example",
+          "linkedin": "#"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/3800c672-b837-499c-9efb-78093df14d1d/Alan-Prando.jpeg",
+          "name": "Example",
           "linkedin": "#"
         }
       ]
@@ -79,7 +94,7 @@
     {
       "__resolveType": "site/sections/Positioning.tsx",
       "title": "Our brand",
-      "subtitle": "Made partnerships with VCs that believe  in the pitch idea to form an stellar team",
+      "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
       "positioning": {
         "leftText": "Highly Customizable",
         "rightText": "Highly Opinionated",
