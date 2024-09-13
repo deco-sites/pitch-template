@@ -7,12 +7,12 @@
       "companyName": "<p>MIRA.LC</p>",
       "fontSize": 221.33,
       "lineHeight": 221,
-      "tagline": "Transforme suas conversas. Transforme seus resultados. "
+      "tagline": "We are committed to a future where language and technology enable a high performance path for millions of people."
     },
     {
       "__resolveType": "site/sections/Team.tsx",
-      "title": "Nosso time",
-      "subtitle": "Indivíduos comprometidos com um futuro além do óvio.",
+      "title": "Our Team",
+      "subtitle": "Creating a future where language unlock high performance.",
       "members": [
         {
           "image": {
@@ -44,17 +44,17 @@
         },
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/81ff760e-9fdf-408d-b6f8-c9369cc53bf3/bacic.jpeg",
-            "description": "Lucas Bacic"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/3800c672-b837-499c-9efb-78093df14d1d/Alan-Prando.jpeg",
+            "description": "Alan Prando"
           },
-          "linkedin": "https://www.linkedin.com/in/baciclucas/"
+          "linkedin": "https://www.linkedin.com/in/avprando/"
         },
         {
           "image": {
-            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/4c899c79-cac6-425d-aa12-957bfe9f7c05/kobus.jpeg",
-            "description": "Giovana Kobus"
+            "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/388721d5-062a-41e4-b463-62d781d88c1f/orem.jpeg",
+            "description": "Rodrigo Orem"
           },
-          "linkedin": "https://www.linkedin.com/in/giovanna-conrado-390235155/"
+          "linkedin": "https://www.linkedin.com/in/rodrigo-orem/"
         }
       ]
     },
