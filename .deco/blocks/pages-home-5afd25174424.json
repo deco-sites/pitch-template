@@ -74,13 +74,13 @@
     },
     {
       "__resolveType": "site/sections/Solution.tsx",
-      "solution": "<p>Creating a template in the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Deco.cx\"><strong>Deco.cx</strong></a> platform solves this issue</p>",
+      "solution": "<p>Creating a platform that keeps high performance teams in action.</p>",
       "subtitle": "Made partnerships with VCs that believe in the pitch idea to form an stellar team",
       "image": {
         "source": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/pitch-template/481eb324-102a-4ef0-8260-5d6f8deb1739/Second-Frame.png",
         "description": "Frame Image",
-        "width": 664,
-        "height": 664
+        "width": 680,
+        "height": 684
       },
       "variation": "variation-2"
     },
