@@ -204,7 +204,40 @@
           "value": 10000000,
           "year": "2028"
         }
-      ]
+      ],
+      "chart": {
+        "labels": [
+          "2024",
+          "2025",
+          "2026",
+          "2027",
+          "2028"
+        ],
+        "data": [
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ],
+        "borderColor": [
+          "#CCCCCC",
+          "#999999",
+          "#666666",
+          "#333333",
+          "#000000"
+        ],
+        "backgroundColor": [
+          "#CCCCCC",
+          "#999999",
+          "#666666",
+          "#333333",
+          "#000000"
+        ],
+        "borderWidth": 1,
+        "displayGrids": false,
+        "displayBorders": true
+      }
     },
     {
       "__resolveType": "site/sections/Numbers.tsx",
