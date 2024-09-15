@@ -1,82 +1,121 @@
 import { Color, RichText } from "apps/admin/widgets.ts";
+import { useScript } from "@deco/deco/hooks";
 
 interface Chart {
-  value: number;
-  year: string;
-  color: Color;
+  labels: string[];
+  data: number[];
+  backgroundColor?: Color[];
+  borderColor?: Color[];
+  borderWidth?: number;
+  /**
+   * @default false
+   */
+  displayGrids?: boolean;
+  /**
+   * @default false
+   */
+  displayBorders?: boolean;
 }
 
 export interface Props {
   title: RichText;
-  charts: Chart[];
+  chart: Chart;
 }
-
 const DEFAULT_PROPS: Props = {
   title:
-    "<p>This pitch structure has helped participants raise more than <br><strong>$10M in funding</strong></p>",
-  charts: [
-    { year: "2024", value: 1000000, color: "#CCCCCC" },
-    { year: "2025", value: 2000000, color: "#999999" },
-    { year: "2026", value: 3000000, color: "#666666" },
-    { year: "2027", value: 5000000, color: "#333333" },
-    { year: "2028", value: 10000000, color: "#000000" },
-  ],
+    "<p>This pitch structure has helped participants raise more than<br><strong>$10M in funding</strong></p>",
+  chart: {
+    labels: ["2024", "2025", "2026", "2027", "2028"],
+    data: [1000000, 2000000, 3000000, 5000000, 10000000],
+    backgroundColor: ["#000", "#000", "#000", "#000", "#000"],
+    borderColor: ["#000", "#000", "#000", "#000", "#000"],
+    displayBorders: false,
+    displayGrids: false,
+  },
 };
 
+// deno-lint-ignore no-explicit-any
+declare const Chart: any;
+
 export default function BarChart(props: Props) {
-  const { title, charts } = { ...DEFAULT_PROPS, ...props };
+  const { title, chart } = { ...DEFAULT_PROPS, ...props };
+
+  const script = (chart: Chart) => {
+    const canvas = document.getElementById("myBarChart") as
+      | HTMLCanvasElement
+      | null;
+    if (canvas) {
+      const ctx = canvas.getContext("2d");
+      if (ctx) {
+        const labels = chart.labels;
+        const itemData = chart.data;
+        const data = {
+          labels,
+          datasets: [{
+            data: itemData,
+            backgroundColor: chart.backgroundColor,
+            borderColor: chart.borderColor,
+            borderWidth: chart.borderWidth,
+            fill: true,
+          }],
+        };
+        const config = {
+          type: "bar",
+          data: data,
+          options: {
+            scales: {
+              y: {
+                grid: {
+                  display: chart.displayGrids,
+                },
+                border: {
+                  display: chart.displayBorders,
+                },
+              },
+              x: {
+                grid: {
+                  display: chart.displayGrids,
+                },
+                border: {
+                  display: chart.displayBorders,
+                },
+              },
+            },
+            plugins: {
+              legend: {
+                display: false,
+              },
+            },
+          },
+        };
+        new Chart(ctx, config);
+      } else {
+        console.error("Não foi possível obter o contexto 2D do canvas.");
+      }
+    } else {
+      console.error(
+        'Não foi possível encontrar o elemento canvas com id "myChart".',
+      );
+    }
+  };
 
   return (
-    <div class="w-full min-h-[982px] flex items-center justify-center px-24 py-20 bg-secondary font-inter text-base-100">
-      <div class="flex flex-col items-center justify-center gap-[72px] max-w-[1096px] mx-auto">
+    <>
+      <div class="w-full min-h-[982px] flex flex-col gap-[72px] items-center justify-center px-24 py-20 bg-secondary font-inter text-base-100">
         <div
           class="max-w-[1096px] text-[64px] leading-[77.45px] text-center font-semibold"
           dangerouslySetInnerHTML={{ __html: title || "" }}
         />
 
-        <Charts charts={charts} />
+        <div class="flex items-center justify-center w-full h-full max-w-[1094px] max-h-[609px] p-20 border-2 border-base-100 bg-warning-content rounded-[40px]">
+          <canvas id="myBarChart" class="w-full h-full" />
+        </div>
       </div>
-    </div>
-  );
-}
 
-function Charts({ charts }: { charts: Props["charts"] }) {
-  const values = charts.map((item) => item.value);
-  const maxValue = Math.max(...values);
-
-  const reversedValues = values.reverse();
-
-  const paddingBottom = (reversedValues[0] / maxValue) * 100;
-
-  return (
-    <div class="flex items-center justify-center gap-4 p-20 border-2 border-base-100 bg-warning-content h-[609px] w-full rounded-[40px] font-semibold leading-[19.36px] text-center">
-      <ul
-        style={{ paddingBottom: paddingBottom - 40 }}
-        class="flex flex-col items-center justify-start h-full"
-      >
-        {reversedValues.map((value) => (
-          <li
-            style={{ height: `${(value / maxValue) * 100}%` }}
-          >
-            {(value / 1_000_000).toFixed(1)}M
-          </li>
-        ))}
-      </ul>
-
-      <ul class="flex items-center justify-between gap-[42px] w-full h-full">
-        {charts?.map((chart) => (
-          <li class="flex flex-col justify-end gap-2.5 w-full h-full">
-            <div
-              style={{
-                height: `${(chart.value / maxValue) * 100}%`,
-                background: chart.color,
-              }}
-              class="w-full max-w-[148px] hover:opacity-85 duration-300"
-            />
-            <span>{chart.year}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
+      <script
+        type="module"
+        dangerouslySetInnerHTML={{ __html: useScript(script, chart) }}
+      />
+    </>
   );
 }
