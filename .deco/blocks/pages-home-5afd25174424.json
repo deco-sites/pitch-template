@@ -178,33 +178,6 @@
     {
       "__resolveType": "site/sections/BarChart.tsx",
       "title": "<p>This pitch structure has helped participants raise more than <br><strong>$10M in funding</strong></p>",
-      "charts": [
-        {
-          "color": "#CCCCCC",
-          "value": 1000000,
-          "year": "2024"
-        },
-        {
-          "color": "#999999",
-          "value": 2000000,
-          "year": "2025"
-        },
-        {
-          "color": "#666666",
-          "value": 3000000,
-          "year": "2026"
-        },
-        {
-          "color": "#333333",
-          "value": 5000000,
-          "year": "2027"
-        },
-        {
-          "color": "#000000",
-          "value": 10000000,
-          "year": "2028"
-        }
-      ],
       "chart": {
         "labels": [
           "2024",
